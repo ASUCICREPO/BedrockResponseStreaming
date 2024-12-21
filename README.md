@@ -5,6 +5,19 @@
 - [How we can use it at the CIC](#how-we-can-use-it-at-the-cic)
   - [Request Pipeline Comparison](#request-pipeline-comparison)
   - [Use Cases](#use-cases)
+- [Demo Deployment Instructions](#demo-deployment-instructions)
+  - [Prerequisites](#prerequisites)
+  - [Repository Setup](#repository-setup)
+    - [Initial Setup](#initial-setup)
+  - [Backend Setup](#backend-setup)
+    - [AWS Configuration](#aws-configuration)
+    - [Backend Environment Setup](#backend-environment-setup)
+    - [AWS CDK Deployment](#aws-cdk-deployment)
+  - [Frontend Setup](#frontend-setup)
+    - [Configure Frontend Settings](#configure-frontend-settings)
+    - [Build the Frontend](#build-the-frontend)
+    - [Prepare for Deployment](#prepare-for-deployment)
+    - [Deploy to AWS Amplify](#deploy-to-aws-amplify)
 
 ## What it does
 
