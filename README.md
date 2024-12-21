@@ -12,7 +12,7 @@ The Response Streaming setup for bedrock is the same pipeline as the standard Be
 
 The specific demo uses a React hosted frontend utilizing the Chatbot Template (https://github.com/ASUCICREPO/ChatbotTemplate), this invokes the backend through an Api Gateway Websocket, rather than the standard REST api gateway. Through this the request is routed to a lambda function, the "connection opener" lambda. The purpose of this lambda is to allow the initial opening of the websocket connection, and to call the main function. (TODO: I believe this can be done with step functions to simplify to one lambda) Next the main lambda function will call bedrock through the converse stream API, for each token returned, it will be sent back to the api gateway to the frontend.
 
-![Bedrock Response Streaming](BedrockResponseStreaming.jpg)
+![Bedrock Response Streaming](Documentation/BedrockResponseStreaming.jpg)
 
 ## How we can use it at the CIC
 
