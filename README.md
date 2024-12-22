@@ -147,7 +147,7 @@ These repositories contain the necessary components:
    ```
    
    In `constants.js`:
-   - Set `WEBSOCKET_API` to the WebSocket URL obtained from the backend deployment
+   - Set `WEBSOCKET_API` to the WebSocket URL obtained from the backend deployment NOTE: you also have to add /dev/ to the end for it to work
    - Configure the optional features:
      ```javascript
      // Disable optional features
